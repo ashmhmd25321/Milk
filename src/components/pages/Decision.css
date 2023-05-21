@@ -1,0 +1,69 @@
+.decision-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.decision-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.decision-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.option-label {
+  font-weight: bold;
+}
+
+.option-select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.option-description {
+  margin-bottom: 20px;
+}
+
+.strategy-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.strategy-paragraph {
+  margin-bottom: 10px;
+}
+
+.strategy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.strategy-table th,
+.strategy-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.strategy-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.background-image {
+  background-image: url('/images/b2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 105vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
